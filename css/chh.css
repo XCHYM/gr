@@ -1,0 +1,210 @@
+/*菜单*/
+.navbar{
+			/*border: 1px solid red;*/
+			height: 120px;
+			background: rgba(25,25,25,0.5);
+		}
+/*.dhl{
+	width: 100%;
+	height: 100px;
+	background: black;
+}*/
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-brand{
+	height: 77px;
+	width: 77px;
+	font-size: 50px;
+	margin-top: 23px;
+	margin-left: 33px;
+	text-align: center;
+	background: #a69173;
+	color:#ffffff;
+	line-height: 40px;
+}
+#nav1 ul li a{
+	/*color: #fff;*/
+	/*margin-top: 10px;*/
+	background: transparent;
+	/*margin-left: 65px;*/
+}
+@media screen and (max-width: 768px){
+	.navbar-brand {
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		margin-top: 8px;
+		line-height: 10px;
+		padding:15px 12px;
+	}
+	.navbar{height: 70px;}
+	.navbar-header .navbar-toggle{
+		background-color: #8c8383c7;
+	}
+	.navbar-header .navbar-toggle .icon-bar{
+		background-color:white;
+	}
+	#nav1 ul li a{
+		color: red;
+		background: #33333394;
+		font-size: 12px;
+		text-align: center;
+	}
+	#nav1{top:0;}
+	#nav1 .nav{width: 80%;}
+	/*.navbar-nav{margin: 7.5px auto;}*/
+}
+
+.navbar-brand:hover{color:#ffffff;}
+
+#nav1 ul li{
+	padding:0 17.5px;
+	font-size: 16px;
+}
+#nav1{
+	position: relative;
+	top: 35px;
+	left: 55px;
+}
+.navbar-toggle{
+	background: #fff;
+}
+.navbar-nav{
+	margin-top: 0px;
+}
+.icon-bar{
+	background: blue;
+}
+ul > li > a::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 60%;
+	height: 4px;
+	background: #00428e;
+	opacity: 0;
+	transition: all .35s;
+	transform: translateY(5px) translateX(-50%);
+}
+
+ul > li > a:hover::after {
+	opacity: 1;
+	transform: translateY(-5px) translateX(-50%);
+}
+/*盒子*/
+.box1{
+	height: 400px;
+	margin-top: 10px;
+}
+
+/*左边*/
+.mul{
+	width: 60px;
+	height: 30px;
+	float: left;
+}
+/* .mul{
+	width: 60px;
+	height: 80%;
+	overflow: hidden;
+ 	height: 100%;
+ 	float: left;
+ 	user-select: none;
+ 	background-color: #20343c;
+ 	color: #fff;
+ 	margin-left: 0px;
+} */
+.box{
+	width: 60px;
+	height: 50px;
+	background-color: #20343c;
+}
+.box a{
+	line-height: 50px;
+}
+.box2{
+	height: 160px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+/*表格*/
+/*tr th{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	background: blue;
+	color: #fff;
+}
+tr td{
+	height: 80px;
+	background: #da22d3;
+	color: #fff;
+}*/
+.biao{
+	margin-left: 20px;
+	float: left;
+}
+
+
+
+
+
+
+/*2添加*/
+/*form*/
+.fo{
+	text-align: center;
+	width: 400px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*注册*/
+.glyphicon{
+	top: 0;
+}
+.bos{
+	width:600px;
+	/*height:700px;*/
+	margin:10% auto;
+}
+/*form{
+	width: 200px;
+	text-align:center;
+}-*/
+.form-center{
+	/*width: 300px;*/
+	position:relative;
+	/*top: 9px;*/
+	/*left: 100px;*/
+    text-align:center;
+}
+.input-group{
+	/*width: 300px;*/
+	position:relative;
+	top: 9px;
+}
+.bos1{
+	/*width: 200px;*/
+	/*font-size: 20px;*/
+	position: relative;
+	/*left: 218px;*/
+	background-color:#0EA7F3;
+	color:#aaffe4;
+}
